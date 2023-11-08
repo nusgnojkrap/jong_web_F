@@ -7,18 +7,35 @@
     <title></title> <!--문서제목설정-->
     <link rel="stylesheet" href="../css/test1.css" (type="text/css")>
     <script src="../js/test1.js"></script>
-
+    <script src="./../js/test1.js"></script>
 </head> <!--문서정보종료-->
 <body> <!--본문시작-->
     <div class="container">
-        <div id="div_root">
-            <div id="div_top">메인메뉴</div>
-            <div id="div_menu">사이드메뉴
-                <img src="./../img/Lenna.png" height="100%">
-            </div>
-            <div id="div_con">내용</div>
-            <div id="div_bottom">하단</div>
+
+        <div id="div_top">
+            <h2>제목</h2>
         </div>
+
+        <div id="div_middle">
+            <div id="div_menu">
+                사이드메뉴
+                <div id="div_menu_box">
+                    <img id="dev_menu_box_img" src="./../img/Lenna.png">
+                </div>
+
+                <h4> Name : JONGSUN PARK</h4>
+                <h4>  age : 1994.04.04</h4>
+                <h4>  Tel : (+82)010-7576-1807</h4>
+                <h5>  SNS : url</h5>
+            </div>
+            <div id="div_con">
+                <button onclick="displayCity()"></button>
+                <button onclick="displayTime()"></button>
+            </div>
+        </div>
+
+        <div id="div_bottom">하단</div>
+
     </div>
 
 
